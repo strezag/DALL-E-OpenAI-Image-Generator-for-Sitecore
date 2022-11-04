@@ -31,15 +31,19 @@
 
 ## ⚙ DALL-E Image Generation Configuration
 
-### Prompt
+### ⌨ Prompt
 > <img src="./img/DALL-E OpenAI Image Generator for Sitecore-Prompt.png">
 
 <br/>
 
-### Settings
+### 🔑 Settings
 
-An OpenAI API key is required:
+An `OpenAI API Key` is required:
 - [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys)
+
+> <img src="./img/DALL-E%20OpenAI%20Image%20Generator%20for%20Sitecore-Keys.png">
+> 
+<br/>
 
 This key is configured in the `OpenAI API Key` field on the `OpenAI API Setting` item installed alongside this module in Sitecore:
 - `/sitecore/system/Modules/PowerShell/Script Library/DALL-E OpenAI Image Generator/OpenAI API Settings`
@@ -57,13 +61,13 @@ The Sitecore Template for this setting item is located here:
 
 ## 💻 Installation
 
-- Download the latest Sitecore package from the repo's [Releases](https://github.com/strezag/DALL-E-OpenAI-Image-Generator-for-Sitecore/releases) section.
+- Download the latest `Sitecore Package` from the repo's [Releases](https://github.com/strezag/DALL-E-OpenAI-Image-Generator-for-Sitecore/releases) section.
 
-- Install the `Sitecore Package` on an instance of Sitecore where Sitecore PowerShell Extensions is already installed.
+- Install the `Sitecore Package` on an instance of Sitecore where `Sitecore PowerShell Extensions` is already installed.
 
-- Configure the `OpenAI API Key` field on the on the module's Settings item. 
+- Configure the `OpenAI API Key` field on the on the module's `Settings` item. 
 
-- From the Sitecore `Desktop`, select `Start Menu` > PowerShell Toolbox > `Rebuild script integration points`
+- From the Sitecore `Desktop`, select `Start Menu` > `PowerShell Toolbox` > `Rebuild script integration points`
 
 <br/>
 
