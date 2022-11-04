@@ -59,9 +59,11 @@ The Sitecore Template for this setting item is located here:
 
 - Download the latest Sitecore package from the repo's [Releases](https://github.com/strezag/DALL-E-OpenAI-Image-Generator-for-Sitecore/releases) section.
 
-- Install the Sitecore package on an instance of Sitecore where Sitecore PowerShell Extensions is already installed.
+- Install the `Sitecore Package` on an instance of Sitecore where Sitecore PowerShell Extensions is already installed.
 
-- Configure your OpenAI API Key on the settings item. 
+- Configure the `OpenAI API Key` field on the on the module's Settings item. 
+
+- From the Sitecore `Desktop`, select `Start Menu` > PowerShell Toolbox > `Rebuild script integration points`
 
 <br/>
 
